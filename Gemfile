@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+ruby '2.3.4'
+
 #Add Spree gems to your Gemfile:
 gem 'spree', '~> 3.3'
 gem 'spree_auth_devise', '~> 3.3'
