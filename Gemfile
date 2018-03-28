@@ -11,6 +11,7 @@ ruby '2.4.3'
 gem 'spree', '~> 3.3'
 gem 'spree_auth_devise', '~> 3.3'
 gem 'spree_gateway', '~> 3.3'
+gem 'spree_i18n', github: 'spree-contrib/spree_i18n', branch: 'master'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
